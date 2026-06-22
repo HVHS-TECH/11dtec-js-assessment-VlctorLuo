@@ -1,0 +1,113 @@
+body {
+   margin: 0px;
+}
+
+
+nav {
+   background-color: #FFF5F6;
+}
+
+
+.navbuttons {
+   display: flex;
+   justify-content: end;
+   gap: 30px;
+   margin-right: 10px;
+   font-size: x-large;
+}
+
+nav a {
+   text-decoration: none;
+   font-family: 'Bodoni Moda', serif;
+   color: rgb(150, 45, 45);
+}
+
+
+/*NAVBAR///////////////NAVBAR///////////////NAVBAR///////////////NAVBAR*/
+/*NAVBAR///////////////NAVBAR///////////////NAVBAR///////////////NAVBAR*/
+/*MAINBODY///////////////MAINBODY///////////////MAINBODY///////////////MAINBODY*/
+/*MAINBODY///////////////MAINBODY///////////////MAINBODY///////////////MAINBODY*/
+.maincontainer {
+   display: grid;
+       grid-template-columns: auto auto;
+       grid-template-rows: auto auto;
+       background-color: #FFF5F6;
+}
+.maincontainer img {
+    width: 1500px;
+}
+
+.headers {
+   font-family: 'Bodoni Moda', serif;
+   color: rgb(150, 45, 45);
+   position: absolute;
+   padding: 10px;
+   padding-right: 200px;
+   background-color: white;
+   margin-top: 130px;
+   margin-left: 100px;
+   font-size: 40px;
+   border-radius: 10px;
+}
+
+.headers p , a {
+   font-size: 30px;
+   display: flex;
+}
+
+.headers a {
+   background-color: rgb(150, 45, 45);
+   text-decoration: none;
+   color: white;
+   padding: 5px;
+   border-radius: 30px;
+   transition: 0.5s;
+}
+
+.headers a:hover {
+   background-color: rgb(88, 26, 26);
+   transition: 0.5s;
+   padding-right: 48px;
+   color: white;
+}
+
+.buttonanimation {
+   display: flex;
+   flex-direction: row;
+}
+
+.arrowanimation {
+   position: absolute;
+   visibility: visible;
+   transform: translate(180px);
+   color: white;
+}
+
+.bestsellers {
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.bestsellertitle {
+   color: rgb(150, 45, 45);
+   font-family: 'Bodoni Moda', serif;
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.bestsellercards img{
+   width: 10%;
+   border-radius: 10px;
+}
+
+.bestsellersection {
+   background-color: white;
+   padding-bottom: 10px;
+   border-radius: 10px;
+   transform: translate(800px, -435px);
+}
+
+a img {
+   display: block;
+}
