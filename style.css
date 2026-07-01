@@ -117,3 +117,36 @@ nav a {
    font-family: 'Bodoni Moda', serif;
    background-color: #fbe5e5;
 }
+
+.coloursquare {
+   background-color: #fbe5e5;
+   height: 307.5px;
+   width: 500px;
+   grid-column-start: 1;
+   position: absolute;
+}
+
+.coloursquare img {
+   width: 550px;
+   height: 307.5px;
+   object-fit: cover;
+   border-radius: 30px;
+   margin-left: -50px;
+}
+
+.reviewscontainer {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.reviews {
+   font-size: x-large;
+   color: rgb(150, 45, 45);
+   grid-column: 1;
+   background-color: #fbe5e5;
+   text-align: center;
+}
+
+.reviews p {
+   margin-bottom: 50px;
+}
