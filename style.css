@@ -111,6 +111,16 @@ nav a {
    transform: translate(800px, -435px);
 }
 
+.divider {
+   background-color: rgb(150, 45, 45);
+   height: 5px;
+}
+
+.divider2 {
+   background-color: rgb(111, 30, 30);
+   height: 5px;
+}
+
 .blurb {
    color: rgb(150, 45, 45);
    font-size: x-large;
@@ -127,26 +137,28 @@ nav a {
 }
 
 .coloursquare img {
-   width: 550px;
-   height: 307.5px;
+   width: 500px;
+   height: 308px;
    object-fit: cover;
+   margin-left: -52px;
    border-radius: 30px;
-   margin-left: -50px;
 }
 
 .reviewscontainer {
    display: grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: auto;
+   background-color: #fbe5e5;
+
 }
 
 .reviews {
    font-size: x-large;
    color: rgb(150, 45, 45);
    grid-column: 1;
-   background-color: #fbe5e5;
    text-align: center;
 }
 
-.reviews p {
-   margin-bottom: 50px;
+.reviewcards {
+   color: rgb(150, 45, 45);
+   text-align: center;
 }
